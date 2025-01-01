@@ -7,5 +7,6 @@ const {name} = req.body
 const username = await User.create({name:name});
 res.json(user)
 })
+console.log("my name is leah")
 
 module.exports = router
